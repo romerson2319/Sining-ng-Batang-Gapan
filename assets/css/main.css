@@ -88,6 +88,37 @@ h6 {
   font-family: var(--heading-font);
 }
 
+h1{
+  font-size: clamp(20px, 1vw, 1vw) !important;
+}
+h2{
+  font-size: clamp(18px, 1.5vw, 1.5vw) !important;
+}
+h3{
+  font-size: clamp(17px, 1.5vw, 1.5vw) !important;
+}
+h4{
+  font-size: clamp(15px, 1vw, 1vw) !important;
+}
+h5{
+  font-size: clamp(13px, 1.25vw, 1.25vw) !important;
+}
+h6{
+  font-size: clamp(13px, 1.1vw, 1.1vw) !important;
+}
+
+p{
+  font-size: clamp(11px, 0.9vw, 0.9vw) !important;
+}
+
+a{
+font-size: clamp(11px, 0.9vw, 0.9vw) !important;
+}
+
+i{
+  font-size: 24px
+}
+
 /* Sining ng Batang Gapan */
 .snbg-logo img{
   object-fit: fill !important;
