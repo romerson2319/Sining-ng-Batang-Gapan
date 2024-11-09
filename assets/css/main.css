@@ -78,16 +78,6 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--heading-color);
-  font-family: var(--heading-font);
-}
-
 h1{
   font-size: clamp(20px, 1vw, 1vw) !important;
 }
@@ -116,7 +106,18 @@ font-size: clamp(11px, 0.9vw, 0.9vw) !important;
 }
 
 i{
-  font-size: 24px
+  font-size: 24px !important;
+}
+.services .service-item i, .featured-services .service-item .icon i {
+  font-size: 45px !important;
+}
+@media (max-width: 450px) {
+  i{
+  font-size: 13px;
+}
+.services .service-item i, .featured-services .service-item .icon i {
+  font-size: 25px !important;
+}
 }
 
 /* Sining ng Batang Gapan */
